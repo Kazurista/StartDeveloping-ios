@@ -14,6 +14,7 @@
 		5A141BE620B3E961006D8F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A141BE520B3E961006D8F9B /* Assets.xcassets */; };
 		5A141BE920B3E961006D8F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A141BE720B3E961006D8F9B /* LaunchScreen.storyboard */; };
 		5A141BF420B3E961006D8F9B /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A141BF320B3E961006D8F9B /* FoodTrackerTests.swift */; };
+		5ABE19BD20E0D3950065BD75 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE19BC20E0D3950065BD75 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5A141BEF20B3E961006D8F9B /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A141BF320B3E961006D8F9B /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		5A141BF520B3E961006D8F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABE19BC20E0D3950065BD75 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				5A141BDE20B3E960006D8F9B /* AppDelegate.swift */,
 				5A141BE020B3E960006D8F9B /* ViewController.swift */,
 				5A10FA8C20DCD3330080371D /* RatingControl.swift */,
+				5ABE19BC20E0D3950065BD75 /* Meal.swift */,
 				5A141BE220B3E960006D8F9B /* Main.storyboard */,
 				5A141BE520B3E961006D8F9B /* Assets.xcassets */,
 				5A141BE720B3E961006D8F9B /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABE19BD20E0D3950065BD75 /* Meal.swift in Sources */,
 				5A141BE120B3E960006D8F9B /* ViewController.swift in Sources */,
 				5A10FA8D20DCD3330080371D /* RatingControl.swift in Sources */,
 				5A141BDF20B3E960006D8F9B /* AppDelegate.swift in Sources */,
