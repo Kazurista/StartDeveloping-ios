@@ -117,7 +117,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         // Make sure ViewController is notified when the user picks an image.
         imagePickerController.delegate = self
-        present(imagePickerController, animated: true, completion: nil)
+        self.present(imagePickerController, animated: true, completion: nil)
     }
     
     //MARK: UIImagePickerControllerDelegate

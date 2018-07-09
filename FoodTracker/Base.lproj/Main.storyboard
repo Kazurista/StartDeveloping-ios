@@ -86,12 +86,15 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="o6h-nI-uE7">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="o6h-nI-uE7">
                                         <rect key="frame" x="15.5" y="38" width="320" height="320"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="o6h-nI-uE7" secondAttribute="height" multiplier="1:1" id="glV-Do-RXH"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="4GB-ki-QYR" appends="YES" id="z50-uw-j0l"/>
+                                        </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="aI2-Wh-kx4" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
                                         <rect key="frame" x="59.5" y="366" width="232" height="40"/>
@@ -139,9 +142,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="NlU-AE-isv" userLabel="Exit" sceneMemberID="exit"/>
-                <tapGestureRecognizer id="eqs-ys-4dJ">
+                <tapGestureRecognizer id="4GB-ki-QYR">
                     <connections>
-                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="dFs-Dc-DER"/>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="fPH-bv-FJy"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -185,7 +188,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="defaultPhoto" width="300" height="300"/>
+        <image name="defaultPhoto" width="320" height="320"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="5v6-vW-csb"/>
