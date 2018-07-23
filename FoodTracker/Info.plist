@@ -20,6 +20,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allows you to add photos to your meals.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>allows you to add photos to your meals.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>TEST</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
